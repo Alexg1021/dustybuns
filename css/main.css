@@ -8,6 +8,8 @@ body, html{
 }
 ul{
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a{
   text-decoration: none;
@@ -15,4 +17,12 @@ a{
 }
 h1, h2{
   margin: 0;
+}
+
+.container-fluid{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
 }

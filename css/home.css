@@ -1,6 +1,83 @@
 /*Home Page Styles*/
+/*Home Header*/
 
-header li{
+header li {
   display: inline-block;
-  margin: 10px;
+  position: relative;
+  padding: 5px;
+}
+
+#menu ul{
+  position: absolute;
+  top: 40px;
+  left: 15%;
+}
+
+#menu a{
+  margin: 15px;
+  padding: 15px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #555;
+}
+
+/*banner*/
+#banner{
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+.bg-image{
+  height: 100%;
+  width: 100%;
+  background: url("../img/home/dustybun.jpg") no-repeat;
+  background-size: cover;
+}
+
+#banner h1, #banner p{
+  position: relative;
+  top: 45%;
+  text-align: center;
+}
+#banner h1{
+  font-size: 4em;
+}
+#banner p{
+  font-size: 2.5em;
+  margin: 0;
+  line-height: 75px;
+}
+
+/*Home About Section*/
+
+#home-about{
+  padding: 90px 0;
+  width: 100%;
+}
+.welcome{
+  text-align: center;
+  margin-bottom: 45px;
+}
+.welcome img{
+  margin-top: 30px;
+}
+#home-about h1{
+  font-size: 4rem;
+  color: #ffc300;
+}
+
+#home-about p{
+  margin: 0;
+  text-align: center;
+}
+.welcome-p{
+  width: 945px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 2;
+}
+#board{
+  margin: 135px 0;
+  padding: 90px 0;
 }
