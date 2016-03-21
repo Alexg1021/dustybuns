@@ -1,0 +1,6 @@
+/*Home Page Styles*/
+
+header li{
+  display: inline-block;
+  margin: 10px;
+}
